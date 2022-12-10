@@ -9,7 +9,7 @@
     <template #prepend>
       <v-list-item two-line>
         <v-list-item-avatar>
-          <img src="https://randomuser.me/api/portraits/men/81.jpg">
+          <img src="https://randomuser.me/api/portraits/men/40.jpg">
         </v-list-item-avatar>
 
         <v-list-item-content>
@@ -47,8 +47,11 @@ export default {
         { 
         title: 'Users', 
         icon: 'mdi-account-group-outline',
-        path:'/dashboard/users' 
-        }
+        path:'/dashboard/users',
+
+
+        },
+        { title: 'My Account', icon: 'mdi-account', path:'/dashboard',},
       ]
     }
   }

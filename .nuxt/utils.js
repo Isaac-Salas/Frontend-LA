@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"API_URL":"https://mongoprueba1.herokuapp.com/api"}
+      env: {"API_URL":"https://megaback.onrender.com/api"}
     }
     // Only set once
 
